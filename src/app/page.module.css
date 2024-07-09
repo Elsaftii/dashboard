@@ -1,0 +1,189 @@
+.main {
+    padding: 0 25px;
+    max-width: 85rem;
+    margin: auto;
+}
+
+.list {
+    text-decoration: none;
+}
+
+.layOut {
+    padding: 0 24px 0 80px;
+    max-width: 85rem;
+    margin: auto;
+}
+.space{
+    padding-top: 60px;
+}
+
+.dataCard {
+    position: relative;
+    top: 1rem;
+    height: 100%;
+    width: calc(100%-0.1rem);
+    padding: 1rem .25rem;
+}
+
+.dataRibben {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+}
+
+.Wrapper {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.transaction {
+    display: block;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+@media screen and (min-width:1000px) {
+    .transaction {
+        display: flex;
+    }
+}
+
+.chart {
+    max-width: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width:1000px) {
+    .chart {
+        min-width: 80%;
+    }
+}
+
+.cardWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width:1000px) {
+    .cardWrapper {
+        flex-direction: column;
+        max-width: 20%;
+    }
+}
+
+.card {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+}
+
+@media screen and (min-width:1000px) {
+    .card {
+        padding: 0.5rem;
+    }
+}
+
+.cardTitle p {
+    font-size: 1.8rem;
+}
+
+.cardValue p {
+    font-size: 1.2rem;
+
+}
+
+@media screen and (min-width:1700px) {
+    .layOut {
+        padding: 0 24px 0 0;
+        max-width: 92rem;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .dataRibben {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+.bottomRow {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr;
+
+
+}
+
+@media screen and (min-width: 900px) {
+    .bottomRow {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.dataCard {
+    position: relative;
+    top: 1rem;
+    height: 100%;
+    width: calc(100% - 0.1rem);
+
+
+}
+
+.dataCard p {
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+@media screen and (min-width:900px) {
+    .bottomRow {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: auto;
+    width: 100%;
+}
+
+.footer li {
+    padding: 1rem;
+
+
+}
+
+.footer li a {
+    text-decoration: none;
+
+
+}
+
+.footer li a :hover {
+    text-decoration: underline;
+}
+
+.vh{
+    height:60.6vh ;
+    display: flex;
+    align-items: center;
+}
