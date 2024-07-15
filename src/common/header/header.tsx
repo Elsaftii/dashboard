@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { signIn, signOut} from "next-auth/react";
-import ThemeToggle from '../../app/themeToggle/themeToggle';
+import ThemeToggle from '../../themeToggle/themeToggle';
 import EqualizerIcon from '@mui/icons-material/Equalizer';
 
 

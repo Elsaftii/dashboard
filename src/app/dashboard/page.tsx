@@ -1,9 +1,9 @@
 import React from 'react'
 import css from './Dashboard.module.css'
 import { Box, Grid, Paper } from '@mui/material'
-import DataRibbon from './dataribbon/page'
-import TransactionPerDay from './transactionperday/page'
-import TransactionBottonmRow from './transactionBottomRow/page'
+import DataRibbon from '../../medules/dataribbon/dataribbon'
+import TransactionPerDay from '../../medules/transactionperday/transactionPerDay'
+import TransactionBottonmRow from '../../medules/transactionBottomRow/transactionBottom'
 
 export default function Dashboard() {
   return <>

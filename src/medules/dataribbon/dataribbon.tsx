@@ -1,6 +1,6 @@
 import { Grid } from '@mui/material'
 import React from 'react'
-import DataCard from '../datacard/page';
+import DataCard from '../datacard/datacard';
 import style from './../../page.module.css'
 
 export default function DataRibbon() {

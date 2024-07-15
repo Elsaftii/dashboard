@@ -1,5 +1,5 @@
 "use client"
-import Login from '@/app/dashboard/login/page'
+import Login from '@/app/login/page'
 import { Box } from '@mui/material'
 import { useSession } from 'next-auth/react'
 import { useRouter } from 'next/navigation'

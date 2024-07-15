@@ -93,7 +93,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NextAuthProvider from "./providers/NextAuthProvider";
+import NextAuthProvider from "../providers/NextAuthProvider";
 import { Container, CssBaseline, ThemeProvider, createTheme } from "@mui/material";
 import React, { useEffect } from "react";
 import Header from "../common/header/header";
