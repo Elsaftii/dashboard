@@ -1,7 +1,7 @@
 import React from 'react'
 import stayel from './../../page.module.css'
 import { Grid, Paper } from '@mui/material'
-import DataChart from '@/medules/datachart/page'
+import DataChart from '@/medules/datachart/datachart'
 import { doughnutChartData } from '@/app/mockData'
 
 export default function TransactionBottonmRow() {

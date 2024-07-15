@@ -2,8 +2,8 @@
 import { Card, Grid, Paper, Typography, useTheme } from '@mui/material';
 import React from 'react'
 import styles from './../../page.module.css'
-import DataChart from '../../../medules/datachart/page';
-import { lineChartData } from '../../mockData';
+import DataChart from '../datachart/datachart';
+import { lineChartData } from '../../app/mockData';
 
 
 

@@ -1,7 +1,7 @@
 'use client'
 import Dashboard from "./dashboard/page";
 import { useSession } from "next-auth/react";
-import SignIn from "./auth/signin/page";
+import SignIn from "../auth/signin/page";
 import Sidemenu from "@/common/sidemenu/sidemenu";
 
 
